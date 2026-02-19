@@ -1,0 +1,126 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: #22223b;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #22223b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f2e9e4;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4f8cff 0%, #6a82fb 100%) !important;
+  box-shadow: 0 2px 8px rgba(79, 140, 255, 0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #ffd166 !important;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #22223b;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(34, 34, 59, 0.05);
+}
+.table th {
+  background: #4f8cff;
+  color: #fff;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0eafc;
+}
+.table-bordered {
+  border: 2px solid #4f8cff;
+}
+
+.btn, .btn-primary {
+  background: #4f8cff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #6a82fb;
+}
+
+a, .App-link {
+  color: #4f8cff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #22223b;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(34, 34, 59, 0.08);
+  border: none;
+}
+.card-title {
+  color: #4f8cff;
+}
+
+/* Favicon and logo styles */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
